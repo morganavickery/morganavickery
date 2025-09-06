@@ -1,20 +1,65 @@
 {
   "page-title": "Open-Access Resources",
-  "page-subtitle": "Tools, guides, and live demos",
+  "page-subtitle": "Sharing Non-Peer-Reviewed Things I've Made for the Greater Good :)",
   "publications": [
     {
-      "title": "Design Heuristics",
-      "meta": "Guide • Updated 2025",
-      "description": "A compact set of heuristics for learning experience design.",
-      "link": "https://example.com/heuristics"
+      "title": "The Learning Theory Map",
+      "meta": "Made via Whimsical · 2023-2025",
+      "description": "A primer and quick-reference to learn about learning theories, created for my undergraduate “Learning Theories for Teachers” course as a ‘first exposure’ to learning theory.",
+      "embed": "https://whimsical.com/embed/dy5XNBK5mVWkAFXygFvUA@6HYTAunKLgTWmr4tBeenNMjLz48KArYqGrnXBjyL2b7bJjE",
+      "iframeHeight": 300,
+      "link": "https://whimsical.com/s25-theory-map-dy5XNBK5mVWkAFXygFvUA"
     },
     {
-      "title": "Interactive Diagram",
-      "meta": "Live Prototype",
-      "description": "Explore the model directly in your browser.",
-      "embed": "https://whimsical.com/your-embed-id",
-      "iframeHeight": 340,
-      "link": "https://whimsical.com/your-board"
+      "title": "A Critical Theories Crash Course for Learning Scientists-in-Training",
+      "meta": "Living Document · 2024 - ",
+      "description": "An in-depth resource introducing critical theories to learning scientists, featuring curated reading lists, teaching strategies, and guidance on integrating equity-focused frameworks into education research and practice.",
+      "link": "https://docs.google.com/document/d/1y1LD60GxdyDjdpw31FkDrnSyhiU8WG-utsskwxx7eYc/edit?usp=sharingf"
+    },
+    {
+      "title": "Academic Website Template",
+      "meta": "GitHub Pages Template",
+      "description": "A GitHub Pages template for academics who need a free, easy-to-edit, low-tech website. morganavickery.com uses this template!",
+      "link": "https://github.com/morganavickery/academic-website-template"
+    },
+    {
+      "title": "Morgan's Template for Outlining Academic Arguments",
+      "description": "A scaffold I created & shared while working as a Graduate Tutor at IU's Writing Tutorial Services—particularly useful for supporting undergraduate students learning how to write an academic/course paper.",
+      "link": "https://docs.google.com/document/d/1EtioonUeiIW-2ASmA8RTGGjXW9s0VAAX9nDb5dS2Ix0/edit?usp=sharing"
+    },
+    {
+      "title": "Medical Specialty Camp Literature Database",
+      "meta": "Updated 2025",
+      "description": "An interactive database of literature from a systematic review of research conducted at camps specifically for youth/adults with disabilities, chronic illness, and medical needs. A passion project by myself (developer/designer) and my partner Dr. Jonathan Gerth (reviewer).",
+      "link": "https://jonathangerth.github.io/database.html"
+    },
+    {
+      "title": "LearnabilityHQ.com",
+      "description": "Learnability is a knowledge base for educators and learners of all ages. We gather free, high-quality educational resources from around the internet and make them easily accessible for the everyday educator. Passion project by myself (Technical Lead & Designer) and Dr. Megan Humburg (Content Lead).",
+      "link": "https://www.learnabilityhq.com/"
+    },
+    {
+      "title": "Sample Lesson Plans for Critique & Redesign",
+      "meta": "Refined from 2023-2025",
+      "description": "A collection of 'messy' and minimalistic (often AI-generated) lesson plans curated for use by my undergraduate students while learning how to critique, iterate on, and theoretically ground lesson plan designs.",
+      "link": "https://docs.google.com/presentation/d/16KohTK1BfO_3DaecqeVlvUWlWcnHDN8hDj--heX9tyc/edit?usp=sharing"
+    },
+    {
+      "title": "Publicly Available Classroom Video Index",
+      "meta": "Crowdsourced from 2023-2025",
+      "description": "An index of publicly available, open-access instructional and classroom observation videos for in-class demos and video/interaction analysis practice. Intended for use with undergraduate pre-service teachers and junior graduate students of learning theories.",
+      "link": "https://docs.google.com/document/d/1ZvTNQVMudO0B9Ha0z7ADFJHFMM25tYpYAcdwnp98s0w/edit?usp=sharing"
+    },
+    {
+      "title": "Resources for Being Human in Bloomington",
+      "description": "A curation of local resources and organizations at IU / in Bloomington for students who need support 'being human' (i.e., food/housing insecurity, LGBTQ+ resources, violence, funding, counseling, etc.).",
+      "link": "https://docs.google.com/document/d/1Ms59cGTxktt5gVi3yj0SfafCtkb7RSKFEOZAhkwE9Zk/edit?usp=sharing"
+    },
+    {
+      "title": "Things I Wish I Knew About the Learning Sciences",
+      "meta": "Living Document · 2019 - ",
+      "description": "A practical, researcher-informed guide to key theories, frameworks, and figures in the learning sciences—ideal for newcomers seeking foundational concepts, major citations, and methodological overviews in education research.",
+      "link": "https://docs.google.com/document/d/1FJQ4H9y1M8vuPmn6oCDm8T_fZRFQplm4Lmce-2ZlhOM/edit?usp=sharing"
     }
   ]
 }

@@ -1,6 +1,12 @@
 {
   "technologies": [
-    { "title": "Example Tool", "role": "Lead Designer & Developer", "link": "https://example.com" },
-    { "title": "Another Tool", "role": "Contributor", "link": "https://example.com" }
+    { "title": "LearnabilityHQ.com", "role": "Founder & Technical Lead", "link": "https://morganavickery.com/learnabilityhq.com" },
+    { "title": "RadioEverywhere", "role": "Lead Designer & Developer", "link": "https://morganavickery.com/radioeverywhere.org" },
+    { "title": "Medical Specialty Camp Literature Database", "role": "Lead Designer & Developer", "link": "https://jonathangerth.github.io/database.html" },
+    { "title": "ILSSA Site", "role": "Lead Designer & Developer", "link": "https://sites.google.com/view/ilssa/home" },
+    { "title": "InqScribe Documentation", "role": "Technical Documentation Editor", "link": "https://www.inqscribe.com/" },
+    { "title": "Learning Sciences Graduate Student Conference Site", "role": "Lead Designer & Developer", "link": "https://www.lsgsc.org/" },
+    { "title": "GEM-STEP Platform", "role": "Technical Lead & GEMScript Developer", "link": "https://embodiedplay.org/" },
+    { "title": "SEEDS/MEME Modeling & Evidence Platform", "role": "Graduate Research Assistant", "link": "https://modelingandevidence.org/" }
   ]
 }

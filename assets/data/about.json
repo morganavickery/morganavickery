@@ -1,43 +1,76 @@
 {
-  "name": "Jane Doe",
-  "tagline": "Researcher, educator, and designer",
+  "name": "Morgan A Vickery",
+  "tagline": "(she/her) | PhD in Learning Sciences",
   "typedItems": [
     "Educator",
     "Researcher",
     "Designer",
     "Advocate"
   ],
-  "text": "This is my bio where I describe my current role, future goals, and research interests.",
+  "text": "I am a Visiting Research Scientist working on the Engage AI Institute project at Indiana University's Center for Research on Learning and Technology (CRLT). I'm currently on the academic job market seeking tenure-track assistant professorships in learning sciences, instructional design, inclusive education, and educational technologies.",
   "roles": [
     {
-      "role": "Role Name",
-      "institution": "Institution Name"
+      "role": "Visiting Research Scientist",
+      "institution": "Indiana University"
+    },{
+      "role": "Co-Chair",
+      "institution": "International Learning Sciences Student Association (ILSSA)"
+    },{
+      "role": "Workspace Admin",
+      "institution": "International Society of the Learning Sciences (ISLS)"
+    },{
+      "role": "Founder & Chair",
+      "institution": "inBody Learning Collective"
+    }
+    ,{
+      "role": "Founder & Technical Officer",
+      "institution": "LearnabilityHQ.com"
+    }
+  ],
+  "education": [
+    {
+      "role": "Visiting Research Scientist",
+      "institution": "Indiana University"
     },
     {
-      "role": "Job Title",
-      "institution": "Company Name"
+      "role": "Doctor of Philosophy",
+      "institution": "Learning Sciences & Inclusive Design"
+    },
+    {
+      "role": "Master of Science in Education",
+      "institution": "Learning Sciences"
+    },
+    {
+      "role": "Bachelors of Arts",
+      "institution": "Computer Science & Education"
     }
   ],
   "contacts": [
     {
-      "email": "academic@example.edu",
+      "email": "moravick@iu.edu",
       "type": "academic"
     },
     {
-      "email": "industry@example.com",
+      "email": "morganavickery@gmail.com",
       "type": "industry"
+    },
+    {
+      "email": "morganavickery@isls.org",
+      "type": "ISLS"
     }
   ],
   "social": {
-    "bluesky": "https://bsky.app/profile/example.bsky.social",
-    "twitter": "https://twitter.com/example",
-    "google_scholar": "https://scholar.google.com/",
-    "github": "https://github.com/example",
-    "linkedin": "https://www.linkedin.com/in/example/",
-    "academia": "https://www.academia.edu/example",
-    "webofscience": "https://www.wob.org/example",
-    "researchgate": "https://www.researchgate.com/example"
+    "bluesky": "https://bsky.app/profile/morganavickery.bsky.social",
+    "twitter": "https://twitter.com/_moravick",
+    "google_scholar": "https://scholar.google.com/citations?hl=en&user=k8qDnxsAAAAJ&view_op=list_works&sortby=pubdate",
+    "github": "https://github.com/morganavickery",
+    "linkedin": "https://www.linkedin.com/in/morganavickery/",
+    "orcid": "https://orcid.org/0000-0003-2616-8824",
+    "academia": "https://indiana.academia.edu/MorganVickery",
+    "webofscience": "https://www.webofscience.com/wos/author/record/OFN-5562-2025",
+    "researchgate": "https://www.researchgate.net/profile/Morgan-Vickery",
+    "scopus": "}https://www.scopus.com/authid/detail.uri?authorId=57222511061"
   },
   "profileImage": "assets/img/profile-headshot.png",
-  "profileImageAlt": "Jane Doe headshot"
+  "profileImageAlt": "Morgan Vickery headshot"
 }

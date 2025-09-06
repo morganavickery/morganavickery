@@ -1,12 +1,31 @@
 {
   "publications": [
     {
-      "citation": "<strong>Doe, J.</strong> & Smith, A. (2024). Sample featured publication. <em>Journal of Examples</em>.",
-      "link": "https://example.com"
+      "citation": "<strong>Vickery, M.</strong> & Danish, J. (2025). Realizations & re-mediations: Enabling expression and interaction in collective embodied activities for children with disabilities.<em> Learning, Culture and Social Interaction</em>, 53, 100919",
+      "link": "https://doi.org/10.1016/j.lcsi.2025.100919"
     },
     {
-      "citation": "<strong>Doe, J.</strong> (2023). Another sample paper. <em>Proceedings of Examples</em>.",
-      "link": "https://example.com"
+      "citation": "<strong>Vickery, M. A. </strong>(2025). Towards a Sociocritical Framework for Body-Inclusive Embodied Activity Design [Dissertation]. Indiana University.",
+      "link": "https://www.proquest.com/pqdtglobal/docview/3241807544/CA5399A2E81F4326PQ/1?sourcetype=Dissertations%20&%20Theses"
+    },
+    {
+      "citation": "<strong>Vickery, M.</strong>(In Press, 2025). Integrating Critical Theories for More Just Embodied Pedagogies. In Encyclopedia of Social Justice in Education: Vol. 8 (Bodies and Different Abilities).<em> Bloomsbury Publishing.</em>"
+    },
+    {
+      "citation": "Zhou, M., <strong>Vickery, M.</strong>, & Danish, J.A. (2025). Goals in Motion: How Emergent Embodied Goals Support Elementary Students’ Mechanistic Reasoning in Collaborative Modeling Activities. <em>Cognition and Instruction</em>, 43(3), 233–284.",
+      "link": "https://doi.org/10.1080/07370008.2025.2503194"
+    },
+    {
+      "citation": "Tancredi, S. & <strong>Vickery, M. </strong>(2024). Learning for Every Body: Intersectional Dimensions of Embodied Learning (Symposium). <em>Proceedings of the 18th Annual Meeting of the International Society of the Learning Sciences—ISLS 2024</em>, Buffalo, New York, USA.",
+      "link": "https://repository.isls.org/handle/1/10855"
+    },
+    {
+      "citation": "<strong>Vickery, M.</strong>(2023). Who is Disabled? An Exploration of Production of Disabled Bodies in School Habitus.<em> Proceedings of the 17th Annual Meeting of the International Society of the Learning Sciences—ISLS 2023</em>, Montreal, Canada.",
+      "link": "https://repository.isls.org/handle/1/9965"
+    },
+    {
+      "citation": "<strong>Vickery, M.</strong>, Mathayas, N., & Danish, J.A. (2024). Being Body-Conscious: A Trauma-Informed Inquiry into Elementary Students’ Collective Embodied Learning Experiences. <em>Proceedings of the 18th Annual Meeting of the International Society of the Learning Sciences—ISLS 2024</em>, Buffalo, New York, USA.",
+      "link": "https://repository.isls.org/handle/1/9965"
     }
   ]
 }

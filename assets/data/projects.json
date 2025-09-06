@@ -1,20 +1,74 @@
 {
   "featured": [
     {
-      "icon": "bi-search-heart",
-      "title": "Sample Featured Project",
-      "description": "Description of a featured research project.",
-      "role": { "title": "Lead Researcher", "details": "Advised by Someone" }
+      "icon": "bi-universal-access",
+      "title": "A Critical Participatory Study of Body-Inclusive Embodied Activity",
+      "description": "Dissertation project with three articles examining embodied expectations, critical deconstruction of activity, and a framework for body-inclusive embodied learning.",
+      "role": { "title": "Lead Researcher", "details": "Advised by Joshua Danish" },
+      "link": "https://repository.isls.org/handle/1/10855"
+    },
+    {
+      "icon": "bi-bounding-box-circles",
+      "title": "Re-Mediating Mixed-Reality for Kids with Disabilities",
+      "description": "Iteratively designed and facilitated mixed-reality embodied learning activities to enable multimodal participation, communication, and coordination for campers with communication disorders.",
+      "role": { "title": "Lead Researcher", "details": "Advised by Joshua Danish" },
+      "link": "https://repository.isls.org/handle/1/9965"
     }
   ],
   "other": [
+  
     {
-      "icon": "bi-flower3",
-      "title": "Sample Project",
-      "description": "Brief project summary.",
-      "role": { "title": "Graduate Research Assistant", "details": "2020 - Present" },
-      "principles": { "title": "Co-PIs", "details": "First Last & Second Last" },
-      "link": "https://example.com"
+      "icon": "bi-diagram-3",
+      "title": "STEP / GEM-STEP / iSTEP / PLAE",
+      "description": "Hybrid computational-embodied modeling with elementary students to understand scientific phenomena; technical lead, embodied model designer, GEMScript developer, and analysis lead on multiple papers.",
+      "role": { "title": "Graduate Assistant", "details": "2019 – Present" },
+      "principles": { "title": "Co-PIs", "details": "Joshua Danish & Noel Enyedy" },
+      "link": "https://embodiedplay.org/"
+    },
+    {
+      "icon": "bi-card-checklist",
+      "title": "RepTaL (Representations for Teachers as Learners)",
+      "description": "Studying how elementary teachers think about representations in science teaching; supported analysis, writing, and journal revisions.",
+      "role": { "title": "Graduate Assistant", "details": "2022 – 2023" },
+      "principles": { "title": "Co-PIs", "details": "Joshua Danish, Dionne Cross Francis, Cindy Hmelo-Silver, Heidi Carlone, & Noel Enyedy" },
+      "link": "https://reptalproject.org/"
+    },
+    {
+      "icon": "bi-joystick",
+      "title": "Cities on the Edge of War",
+      "description": "Semester-long board & role-playing game for undergraduates to explore the Peloponnesian War; supported data collection and analysis.",
+      "role": { "title": "Graduate Assistant", "details": "2021 – Present" }
+    },
+    {
+      "icon": "bi-diagram-2",
+      "title": "SEEDS with MEME",
+      "description": "Agent-based simulations and 5-week implementation to help 5th graders use evidence to create and revise models of scientific phenomena.",
+      "role": { "title": "Graduate Assistant", "details": "2019 – 2021" },
+      "principles": { "title": "Co-PIs", "details": "Joshua Danish, Cindy Hmelo-Silver, Clark Chinn, & Ravit Duncan" },
+      "link": "https://modelingandevidence.org/"
+    },
+    {
+      "icon": "bi-cpu",
+      "title": "CIT Education Research",
+      "description": "Evaluated and iterated instructional design for undergraduate computing courses; designed measures, analyzed performance data, and first-authored work on flipped/active learning.",
+      "role": { "title": "Graduate Assistant", "details": "2019 – 2022" },
+      "principles": { "title": "PI", "details": "Shamima Mithun" }
+    },
+    {
+      "icon": "bi-people",
+      "title": "FPG Child Development Institute (AFIRM & CSESA)",
+      "description": "Supported ASD research via module/video development, survey design, and quantitative analyses for youth, adults, families, and community initiatives.",
+      "role": { "title": "Research Intern", "details": "2019" },
+      "principles": { "title": "Co-PIs", "details": "Kara Hume, Jessica Dykstra Steinbrenner, & Ann Sam" },
+      "link": "https://fpg.unc.edu/areas-of-work/autism-developmental-disabilities"
+    },
+    {
+      "icon": "bi-heart-pulse",
+      "title": "Mindfulness in Human Development",
+      "description": "Investigated effects of yoga and mindfulness in public middle schools; developed measures, coded data, and managed the 2019 Embodied Learning Summit.",
+      "role": { "title": "Research Assistant", "details": "2018 – 2019" },
+      "principles": { "title": "Co-PIs", "details": "Michele Berger & Keval Kaur Khalsa" },
+      "link": "https://bassconnections.duke.edu/project-teams/mindfulness-human-development-2018-2019"
     }
   ]
 }
