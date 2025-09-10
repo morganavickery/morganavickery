@@ -7,6 +7,8 @@
     { "title": "InqScribe Documentation", "role": "Technical Documentation Editor", "link": "https://www.inqscribe.com/" },
     { "title": "Learning Sciences Graduate Student Conference Site", "role": "Lead Designer & Developer", "link": "https://www.lsgsc.org/" },
     { "title": "GEM-STEP Platform", "role": "Technical Lead & GEMScript Developer", "link": "https://embodiedplay.org/" },
-    { "title": "SEEDS/MEME Modeling & Evidence Platform", "role": "Graduate Research Assistant", "link": "https://modelingandevidence.org/" }
+    { "title": "SEEDS/MEME Modeling & Evidence Platform", "role": "Graduate Research Assistant", "link": "https://modelingandevidence.org/" },
+    { "title": "Academic Portfolio Template", "role": "Lead Designer & Developer", "link": "https://github.com/morganavickery/academic-website-template/" }
+
   ]
 }
