@@ -10,7 +10,6 @@
 .navigation {
   color: var(--contrast-color);
   background-color: var(--dark-accent);
-
   position: fixed;
   top: 0;
   left: -300px;
@@ -21,6 +20,10 @@
   overflow-y: auto;
   z-index: 1100;
   border-right: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+}
+
+.sitename {
+  padding-bottom: 40px;
 }
 
 .navigation.navigation-show {
