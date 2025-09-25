@@ -118,6 +118,10 @@ span {
   padding: 24px 0;  
 }
 
+.hero.secondary .container {
+  flex-direction:column;
+}
+
 .hero.secondary .background-container { display: none; }
 
 .section {
