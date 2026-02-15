@@ -1,23 +1,31 @@
 {
   "featured": [
+
     {
+      "icon": "bi-cpu",
+      "title": "EngageAI Institue - Embodied Conversational Agents Strand",
+      "description": "NSF-funded institute;  designs, develops, implements, and analyzes the use of AI-enabled learning technologies FOR elementary and middle-grade science education. Mentors doctoral students in the Learning Sciences program, supports data collection initiatives across project strands, & is lead game developer of “SciStory” -- an educational visual novel  with embodied conversational AI agents.",
+      "role": { "title": "Research Scientist & Game Developer", "details": "2024 - 2025" },
+      "principles": { "title": "Co-PIs", "details": "Cindy Hmelo-Silver (Indiana University), James Lester (North Carolina State University), Gautam Biswas (Vanderbilt University), Jeremy Roschelle (Digital Promise)..." },
+      "link": "https://engageai.org/"
+    },   {
       "icon": "bi-universal-access",
-      "title": "A Critical Participatory Study of Body-Inclusive Embodied Activity",
+      "title": "Dissertation: A Sociocritical-Participatory Study of Body-Inclusive Embodied Activity",
       "description": "4-article dissertation project investigating (non)normative embodied expectations in schools, critical deconstruction of embodied activities, and youth co-designed framework for body-inclusive embodiment in schools.",
-      "role": { "title": "Lead Researcher", "details": "Advised by Joshua Danish" },
-      "link": "https://repository.isls.org/handle/1/10855"
-    },
+      "role": { "title": "Lead Researcher", "details": "2023-2025" },
+      "principles": { "title": "Advisor", "details": "Joshua Danish" },
+      "link": "https://www.proquest.com/pqdtglobal/docview/3241807544/CA5399A2E81F4326PQ/1?sourcetype=Dissertations%20&%20Theses"
+    }
+  ],
+  "other": [
     {
       "icon": "bi-bounding-box-circles",
       "title": "Re-Mediating Mixed-Reality for Kids with Disabilities",
       "description": "Iteratively designed and facilitated mixed-reality embodied learning activities to enable multimodal participation, communication, and coordination for campers with communication disorders.",
-      "role": { "title": "Lead Researcher", "details": "Advised by Joshua Danish" },
+      "role": { "title": "Lead Researcher", "details": "2022-2025" },
+      "principles": { "title": "Advisor", "details": "Joshua Danish" },
       "link": "https://repository.isls.org/handle/1/9965"
-    }
-  ],
-  "other": [
-  
-    {
+    },{
       "icon": "bi-diagram-3",
       "title": "STEP / GEM-STEP / iSTEP / PLAE",
       "description": "Hybrid computational-embodied modeling with elementary students to understand scientific phenomena; technical lead, embodied model designer, GEMScript developer, and analysis lead on multiple papers.",
