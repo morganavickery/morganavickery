@@ -3,7 +3,7 @@
 * Learning Scientist, UX Designer, and Educator
 * Contact: `morganavickery@gmail.com`
 
-* [morganavickery.com/](https://morganavickery.com/)
+* [morganavickery.com](https://morganavickery.com/)
 
 ## 📬 Connect With Me
 
