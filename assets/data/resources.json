@@ -12,9 +12,33 @@
     },
     {
       "title": "A Critical Theories Crash Course for Learning Scientists-in-Training",
-      "meta": "Living Document · 2024 - ",
+      "meta": "Living Document · 2024 -",
       "description": "An in-depth resource introducing critical theories to learning scientists, featuring curated reading lists, teaching strategies, and guidance on integrating equity-focused frameworks into education research and practice.",
       "link": "https://docs.google.com/document/d/1y1LD60GxdyDjdpw31FkDrnSyhiU8WG-utsskwxx7eYc/edit?usp=sharingf"
+    },
+     {
+      "title": "LearnabilityHQ.com",
+      "meta": "Web App · 2022 -",
+      "description": "Learnability is a knowledge base for educators and learners of all ages. We gather free, high-quality educational resources from around the internet and make them easily accessible for the everyday educator. Passion project by myself (Technical Lead & Designer) and Dr. Megan Humburg (Content Lead).",
+      "link": "https://www.learnabilityhq.com/"
+    },
+    {
+      "title": "BYO Interactive Literature Database",
+      "meta": "GitHub Pages Template · 2026",
+      "description": "A GitHub pages plug-and-play template for scholars to create open-access, interactive, filterable database to supplement their literature reviews.",
+      "link": "https://github.com/morganavickery/literature-review-database-template"
+    },
+    {
+      "title": "Journal of the Learning Sciences - Interactive Literature Database",
+      "meta": "Web App · Updated 2025",
+      "description": "An interactive database of JLS publications aggregated via systematic review; filterable by method, theory, pedagogy, construct, context, technology, content area, & population.",
+      "link": "https://morganavickery.github.io/JLS-interactive-database/"
+    },
+    {
+      "title": "Medical Specialty Camp Research - Interactive Literature Database",
+      "meta": "Web App · Updated 2025",
+      "description": "An interactive database of literature from a systematic review of research conducted at camps specifically for youth/adults with disabilities, chronic illness, and medical needs. A passion project by myself (developer/designer) and my partner Dr. Jonathan Gerth (reviewer).",
+      "link": "https://jonathangerth.github.io/database.html"
     },
     {
       "title": "Academic Website Template",
@@ -26,17 +50,6 @@
       "title": "Morgan's Template for Outlining Academic Arguments",
       "description": "A scaffold I created & shared while working as a Graduate Tutor at IU's Writing Tutorial Services—particularly useful for supporting undergraduate students learning how to write an academic/course paper.",
       "link": "https://docs.google.com/document/d/1EtioonUeiIW-2ASmA8RTGGjXW9s0VAAX9nDb5dS2Ix0/edit?usp=sharing"
-    },
-    {
-      "title": "Medical Specialty Camp Literature Database",
-      "meta": "Updated 2025",
-      "description": "An interactive database of literature from a systematic review of research conducted at camps specifically for youth/adults with disabilities, chronic illness, and medical needs. A passion project by myself (developer/designer) and my partner Dr. Jonathan Gerth (reviewer).",
-      "link": "https://jonathangerth.github.io/database.html"
-    },
-    {
-      "title": "LearnabilityHQ.com",
-      "description": "Learnability is a knowledge base for educators and learners of all ages. We gather free, high-quality educational resources from around the internet and make them easily accessible for the everyday educator. Passion project by myself (Technical Lead & Designer) and Dr. Megan Humburg (Content Lead).",
-      "link": "https://www.learnabilityhq.com/"
     },
     {
       "title": "Sample Lesson Plans for Critique & Redesign",
