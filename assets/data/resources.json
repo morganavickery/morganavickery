@@ -34,6 +34,12 @@
       "description": "An interactive database of JLS publications aggregated via systematic review; filterable by method, theory, pedagogy, construct, context, technology, content area, & population.",
       "link": "https://morganavickery.github.io/JLS-interactive-database/"
     },
+     {
+      "title": "Publication Venue Guide",
+      "meta": "Web App · Updated 2025",
+      "description": "Struggling to find or select a journal for a manuscript? This is A searchable / tagged database (Notion board) of publication venues specific to education researchers (especially learning scientists)!",
+      "link": "https://publication-guide.notion.site/"
+    },
     {
       "title": "Medical Specialty Camp Research - Interactive Literature Database",
       "meta": "Web App · Updated 2025",
