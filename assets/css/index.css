@@ -194,6 +194,109 @@
 }
 
 /*--------------------------------------------------------------
+# Education + Appointments Sections
+--------------------------------------------------------------*/
+
+.education .education-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.courses .courses-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.appointments .appointment-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.education-card,
+.course-card,
+.appointment-card {
+  background-color: var(--surface-color);
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  border-radius: 8px;
+  padding: 18px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.education-card:hover,
+.course-card:hover,
+.appointment-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px color-mix(in srgb, var(--default-color), transparent 90%);
+}
+
+.entry-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.entry-title {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.entry-subtitle,
+.entry-meta,
+.entry-dates {
+  margin: 0;
+}
+
+.entry-subtitle {
+  font-size: 0.9rem;
+  color: var(--default-color);
+}
+
+.entry-meta,
+.entry-dates,
+.appointment-group-description {
+  color: var(--soft-text-color);
+  font-size: 0.85rem;
+}
+
+.entry-dates {
+  white-space: nowrap;
+  font-weight: 500;
+}
+
+.entry-details {
+  margin: 12px 0 0;
+  padding-left: 18px;
+  color: color-mix(in srgb, var(--default-color), transparent 25%);
+  font-size: 0.85rem;
+}
+
+.entry-details li + li {
+  margin-top: 6px;
+}
+
+.appointments-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.appointment-group-title {
+  margin: 0 0 6px;
+  font-size: 1.1rem;
+  color: var(--accent-color);
+}
+
+.appointment-group-description {
+  margin: 0 0 14px;
+}
+
+/*--------------------------------------------------------------
 # PROJECTS Section
 --------------------------------------------------------------*/
 
@@ -360,6 +463,18 @@
 
 /* Responsive adjustments for smaller screens */
 @media (max-width: 750px) {
+  .appointments .appointment-list {
+    grid-template-columns: 1fr;
+  }
+
+  .entry-header {
+    flex-direction: column;
+  }
+
+  .entry-dates {
+    white-space: normal;
+  }
+
   .technologies .isotope-container {
     grid-template-columns: 1fr;
     /* One tile per row on smaller screens */
@@ -469,4 +584,3 @@
   text-indent: 0; 
   vertical-align: middle; 
 }
-

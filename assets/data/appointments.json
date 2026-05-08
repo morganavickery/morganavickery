@@ -1,0 +1,140 @@
+{
+  "categories": [
+    {
+      "title": "Academic Appointments",
+      "appointments": [
+        {
+          "title": "Associate Director of the Center for Teaching & Learning",
+          "organization": "SUNY Cortland",
+          "dates": "2026 - ",
+
+          "details": []
+        },
+        {
+          "title": "Visiting Research Scientist",
+          "organization": "Center for Research on Learning & Technology at Indiana University",
+          "dates": "2025 - 2026",
+          "details": []
+        },
+        {
+          "title": "Associate Instructor",
+          "organization": "School of Education (Indiana University)",
+          "dates": "2023 - 2025",
+          "details": []
+        },
+        {
+          "title": "Graduate Tutor & Multilingual Specialist",
+          "organization": "Writing Tutorial Services (Indiana University)",
+          "dates": "2023 - 2025",
+          "details": []
+        },
+        {
+          "title": "Graduate Research Assistant",
+          "organization": "Center for Research on Learning & Technology (Indiana University)",
+          "dates": "2019 - 2023",
+          "details": []
+        },
+        {
+          "title": "Teaching Assistant",
+          "organization": "Department of Computer Science (UNC Chapel Hill)",
+          "dates": "2016 - 2019",
+          "details": []
+        },
+        {
+          "title": "Research Intern",
+          "organization": "Frank Porter Graham Child Development Institute",
+          "dates": "2019",
+          "details": []
+        }
+      ]
+    },
+    {
+      "title": "Non-Academic Appointments",
+      "appointments": [
+        
+        {
+          "title": "UX Designer & Product Architect",
+          "organization": "Inquirium, LLC",
+          "dates": "2023 - 2025",
+          "details": [
+            "Fieldscope | Accessibility Consultant & Auditor",
+            "InqScribe | Technical Documentation Editor",
+            "RadioEverywhere.org | Digital Product Architect, Designer, Developer",
+            "To&Through (Chicago Public Schools) | Analytics Architect & Data Analyst"
+          ]
+        },
+        {
+          "title": "Digital Product & UX Researcher",
+          "organization": "WillowTree, LLC",
+          "dates": "2019 - 2022",
+          "details": [
+            "Anheuser Busch | Product Researcher",
+            "Edward Jones | Lead Product Researcher",
+            "McGraw-Hill | User Experience Researcher",
+            "Holiday Inn Club Vacations | Research Analyst"
+          ]
+        },
+        {
+          "title": "Direct-Support Professional",
+          "organization": "LEL Home Services",
+          "dates": "2025 - 2026",
+          "details": []
+        },
+        {
+          "title": "Software (Android) Engineering Intern",
+          "organization": "WillowTree, LLC",
+          "dates": "2018",
+          "details": [
+            "Canadian Broadcasting Company (CBC)"
+          ]
+        },
+        {
+          "title": "Senior Counselor & Instructor",
+          "organization": "Eagle's Nest Camp",
+          "dates": "2017",
+          "details": []
+        }
+      ]
+    },
+    {
+      "title": "Service",
+      "appointments": [
+        {
+          "title": "Co-Chair",
+          "organization": "International Learning Sciences Student Association (ILSSA)",
+          "details": []
+        },
+        {
+          "title": "Workspace Admin",
+          "organization": "International Society of the Learning Sciences (ISLS)",
+          "details": []
+        },
+        {
+          "title": "Founder & Chair",
+          "organization": "inBody Learning Collective",
+          "details": []
+        },
+        {
+          "title": "Volunteer Aid",
+          "organization": "Special Olympics",
+          "details": []
+        },
+        {
+          "title": "Volunteer Aid",
+          "organization": "Miracle League of the Triangle",
+          "details": []
+        },
+        {
+          "title": "Teacher's Assistant",
+          "organization": "Wake County Self-Contained 'ID-Severe' Special Ed. Classroom",
+          "details": []
+        },
+        {
+          "title": "Coach",
+          "organization": "Holly Springs Parks and Recreation",
+          "details": []
+        }
+      ]
+    }
+  ]
+}

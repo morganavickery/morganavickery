@@ -7,11 +7,11 @@
     "Designer",
     "Advocate"
   ],
-  "text": "I am a Visiting Research Scientist working on the Engage AI Institute project at Indiana University's Center for Research on Learning and Technology (CRLT). I'm currently on the academic job market seeking tenure-track assistant professorships in learning sciences, instructional design, inclusive education, and educational technologies.",
+  "text": "",
   "roles": [
     {
-      "role": "Visiting Research Scientist",
-      "institution": "Indiana University"
+      "role": "Associate Director of the Center for Teaching & Learning",
+      "institution": "SUNY Cortland"
     },{
       "role": "Co-Chair",
       "institution": "International Learning Sciences Student Association (ILSSA)"
@@ -28,10 +28,6 @@
     }
   ],
   "education": [
-    {
-      "role": "Visiting Research Scientist",
-      "institution": "Indiana University"
-    },
     {
       "role": "Doctor of Philosophy",
       "institution": "Learning Sciences & Inclusive Design"

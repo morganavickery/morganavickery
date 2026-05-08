@@ -2,12 +2,7 @@
 "use strict";
 
 document.addEventListener('DOMContentLoaded', () => {
-  loadSitePreferences();  
-  loadAbout();
-  loadResearch();
-  loadPublications();
-  loadProjects();
-  loadTechnologies();
+  loadSitePreferences();
 });
 
 function applyThemeFromPreferences(theme) {
@@ -47,6 +42,9 @@ function setSectionHeadings(sections) {
   if (!sections) return;
   const map = {
     mywork: '#mywork .section-title h2',
+    education: '#education .section-title h2',
+    courses: '#courses .section-title h2',
+    appointments: '#appointments .section-title h2',
     projects: '#projects .section-title h2',
     technologies: '#technologies .section-title h2',
     cv: '#cv .section-title h2',

@@ -4,6 +4,9 @@
 document.addEventListener('DOMContentLoaded', async () => {
   const PATHS = {
     about:        'assets/data/about.json',
+    education:    'assets/data/education.json',
+    courses:      'assets/data/courses.json',
+    appointments: 'assets/data/appointments.json',
     research:     'assets/data/research.json',
     publications: 'assets/data/publications.json',
     projects:     'assets/data/projects.json',
@@ -11,8 +14,11 @@ document.addEventListener('DOMContentLoaded', async () => {
   };
 
   try {
-    const [about, research, publications, projects, technologies] = await Promise.all([
+    const [about, education, courses, appointments, research, publications, projects, technologies] = await Promise.all([
       loadJSON(PATHS.about).catch(() => null),
+      loadJSON(PATHS.education).catch(() => null),
+      loadJSON(PATHS.courses).catch(() => null),
+      loadJSON(PATHS.appointments).catch(() => null),
       loadJSON(PATHS.research).catch(() => null),
       loadJSON(PATHS.publications).catch(() => null),
       loadJSON(PATHS.projects).catch(() => null),
@@ -21,6 +27,9 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     renderHero(about);
     renderAbout(about);
+    renderEducation(education);
+    renderCourses(courses);
+    renderAppointments(appointments);
     renderResearch(research);
     renderPublications(publications);
     renderProjects(projects);
@@ -105,6 +114,118 @@ function renderAbout(data) {
 }
 
 /* =========================
+   EDUCATION
+   assets/data/education.json
+   ========================= */
+function renderEducation(data) {
+  const container = document.getElementById('education-list');
+  if (!container || !data || !Array.isArray(data.education)) return;
+
+  container.innerHTML = '';
+  data.education.forEach(entry => {
+    const card = document.createElement('article');
+    card.className = 'education-card';
+
+    const header = document.createElement('div');
+    header.className = 'entry-header';
+
+    const titleWrap = document.createElement('div');
+
+    const title = document.createElement('h3');
+    title.className = 'entry-title';
+    title.textContent = entry.degree || '';
+    titleWrap.appendChild(title);
+
+    if (entry.field) {
+      const field = document.createElement('p');
+      field.className = 'entry-subtitle';
+      field.textContent = entry.field;
+      titleWrap.appendChild(field);
+    }
+
+    header.appendChild(titleWrap);
+
+    if (entry.dates) {
+      const dates = document.createElement('p');
+      dates.className = 'entry-dates';
+      dates.textContent = entry.dates;
+      header.appendChild(dates);
+    }
+
+    card.appendChild(header);
+
+    if (entry.institution || entry.location) {
+      const meta = document.createElement('p');
+      meta.className = 'entry-meta';
+      meta.textContent = [entry.institution, entry.location].filter(Boolean).join(' | ');
+      card.appendChild(meta);
+    }
+
+    if (Array.isArray(entry.details) && entry.details.length) {
+      card.appendChild(makeDetailsList(entry.details));
+    }
+
+    container.appendChild(card);
+  });
+}
+
+/* =========================
+   COURSES
+   assets/data/courses.json
+   ========================= */
+function renderCourses(data) {
+  const container = document.getElementById('courses-list');
+  if (!container || !data || !Array.isArray(data.courses)) return;
+
+  container.innerHTML = '';
+  data.courses.forEach(course => {
+    const card = document.createElement('article');
+    card.className = 'course-card';
+
+    const header = document.createElement('div');
+    header.className = 'entry-header';
+
+    const titleWrap = document.createElement('div');
+
+    const title = document.createElement('h3');
+    title.className = 'entry-title';
+    title.textContent = course.title || '';
+    titleWrap.appendChild(title);
+
+    if (course.role) {
+      const role = document.createElement('p');
+      role.className = 'entry-subtitle';
+      role.textContent = course.role;
+      titleWrap.appendChild(role);
+    }
+
+    header.appendChild(titleWrap);
+
+    if (course.dates) {
+      const dates = document.createElement('p');
+      dates.className = 'entry-dates';
+      dates.textContent = course.dates;
+      header.appendChild(dates);
+    }
+
+    card.appendChild(header);
+
+    if (course.institution) {
+      const institution = document.createElement('p');
+      institution.className = 'entry-meta';
+      institution.textContent = course.institution;
+      card.appendChild(institution);
+    }
+
+    if (Array.isArray(course.details) && course.details.length) {
+      card.appendChild(makeDetailsList(course.details));
+    }
+
+    container.appendChild(card);
+  });
+}
+
+/* =========================
    RESEARCH
    assets/data/research.json
    ========================= */
@@ -166,6 +287,87 @@ function renderProjects(data) {
     other.innerHTML = '';
     data.other.forEach(p => other.appendChild(makeProjectTile(p)));
   }
+}
+
+/* =========================
+   APPOINTMENTS
+   assets/data/appointments.json
+   ========================= */
+function renderAppointments(data) {
+  const container = document.getElementById('appointments-groups');
+  if (!container || !data || !Array.isArray(data.categories)) return;
+
+  container.innerHTML = '';
+  data.categories.forEach(category => {
+    const group = document.createElement('section');
+    group.className = 'appointment-group';
+
+    const heading = document.createElement('h3');
+    heading.className = 'appointment-group-title';
+    heading.textContent = category.title || '';
+    group.appendChild(heading);
+
+    if (category.description) {
+      const description = document.createElement('p');
+      description.className = 'appointment-group-description';
+      description.textContent = category.description;
+      group.appendChild(description);
+    }
+
+    const list = document.createElement('div');
+    list.className = 'appointment-list';
+
+    if (Array.isArray(category.appointments)) {
+      category.appointments.forEach(appointment => {
+        const card = document.createElement('article');
+        card.className = 'appointment-card';
+
+        const header = document.createElement('div');
+        header.className = 'entry-header';
+
+        const titleWrap = document.createElement('div');
+
+        const title = document.createElement('h4');
+        title.className = 'entry-title';
+        title.textContent = appointment.title || '';
+        titleWrap.appendChild(title);
+
+        if (appointment.organization) {
+          const organization = document.createElement('p');
+          organization.className = 'entry-subtitle';
+          organization.textContent = appointment.organization;
+          titleWrap.appendChild(organization);
+        }
+
+        header.appendChild(titleWrap);
+
+        if (appointment.dates) {
+          const dates = document.createElement('p');
+          dates.className = 'entry-dates';
+          dates.textContent = appointment.dates;
+          header.appendChild(dates);
+        }
+
+        card.appendChild(header);
+
+        if (appointment.location) {
+          const location = document.createElement('p');
+          location.className = 'entry-meta';
+          location.textContent = appointment.location;
+          card.appendChild(location);
+        }
+
+        if (Array.isArray(appointment.details) && appointment.details.length) {
+          card.appendChild(makeDetailsList(appointment.details));
+        }
+
+        list.appendChild(card);
+      });
+    }
+
+    group.appendChild(list);
+    container.appendChild(group);
+  });
 }
 
 // Normalize anything like "search-heart", "bi-search-heart", or "bi bi-search-heart"
@@ -330,3 +532,15 @@ function renderTechnologies(data) {
   });
 }
 
+function makeDetailsList(items) {
+  const ul = document.createElement('ul');
+  ul.className = 'entry-details';
+
+  items.forEach(item => {
+    const li = document.createElement('li');
+    li.textContent = item;
+    ul.appendChild(li);
+  });
+
+  return ul;
+}

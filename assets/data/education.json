@@ -1,0 +1,25 @@
+{
+  "education": [
+    {
+      "degree": "PhD",
+      "field": "Learning Sciences + Inclusive Design (minor)",
+      "institution": "Indiana University - Bloomington",
+      "dates": "2025",
+      "details": []
+    },
+    {
+      "degree": "Master of Science",
+      "field": "Education: Learning Sciences",
+      "institution": "Indiana University - Bloomington",
+      "dates": "2022",
+      "details": []
+    },
+    {
+      "degree": "Bachelor of Arts",
+      "field": "Computer Science & Education",
+      "institution": "The University of North Carolina at Chapel Hill",
+      "dates": "2019",
+      "details": []
+    }
+  ]
+}
