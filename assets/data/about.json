@@ -21,8 +21,7 @@
     },{
       "role": "Founder & Chair",
       "institution": "inBody Learning Collective"
-    }
-    ,{
+    },{
       "role": "Founder & Technical Officer",
       "institution": "LearnabilityHQ.com"
     }
@@ -43,8 +42,11 @@
   ],
   "contacts": [
     {
+      "email": "morgan.vickery02@cortland.edu",
+      "type": "SUNY Cortland"
+    },{
       "email": "moravick@iu.edu",
-      "type": "academic"
+      "type": "Indiana University"
     },
     {
       "email": "morganavickery@gmail.com",
