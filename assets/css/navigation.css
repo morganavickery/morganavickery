@@ -104,7 +104,7 @@
 /*--------------------------------------------------------------
 # Navigation Toggle Button
 --------------------------------------------------------------*/
-.navigation .navigation-toggle {
+.navigation-toggle {
   color: var(--contrast-color);
   background-color: var(--accent-color);
   font-size: 22px;
@@ -122,7 +122,7 @@
   transition: background-color 0.3s;
 }
 
-.navigation .navigation-toggle:hover {
+.navigation-toggle:hover {
   background-color: color-mix(in srgb, var(--accent-color) 90%, white 15%);
 }
 
